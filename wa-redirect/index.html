@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Redirecionando...</title>
+</head>
+<body>
+<script>
+  // ============================================
+  // >>> TROQUE O NÚMERO AQUI <<<
+  // Use somente o DDI + DDD + número.
+  // Exemplo Brasil: 5511999998888
+  var NUMERO = "5511999998888";
+  // ============================================
+
+  var mensagem = "Olá! Vim pelo seu anúncio.";
+  var url = "https://wa.me/" + NUMERO + "?text=" + encodeURIComponent(mensagem);
+  window.location.replace(url);
+</script>
+</body>
+</html>
